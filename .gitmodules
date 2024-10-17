@@ -1,0 +1,3 @@
+[submodule "stage"]
+	path = stage
+	url = https://github.com/rrthomas/stage.git
