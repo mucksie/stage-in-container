@@ -2,4 +2,4 @@
 
 docker run --rm -it \
            --volume $(pwd):/src \
-           mucksie/stage:latest
+           mucksie/stage:latest $@

@@ -13,3 +13,7 @@ RUN apt-get update \
     fancyhdr \
     needspace \
     parskip
+
+WORKDIR /src
+
+CMD ["make", "stage"]
